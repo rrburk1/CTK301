@@ -1,0 +1,46 @@
+h1{
+    color: white;
+    background-color: red;
+}
+
+h2{
+    color: white;
+    background-color:blue ;
+}
+
+h3{
+    color: white;
+    background-color: orange;
+}
+
+.bluetext{
+    color: blue;
+}
+
+#greenhead{
+    color: darkgreen;
+    background-color: red;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+div{
+    color: yellow;
+    background-color: darkgreen;
+}
+
+span{
+    color: darkred;
+}
