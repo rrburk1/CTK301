@@ -1,0 +1,55 @@
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration:underline ;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: black;
+    background-color: yellow;
+}
+
+h4{
+    color:yellow;
+    background-color: green;
+}
+
+h5{
+    color: red;
+}
+
+#yellowbackground{
+    background-color: yellow;
+}
+
+#lightgreen{
+    background-color: lightgreen;
+}
+
+#redtext{
+    color: red;
+}
+
+#lightblue{
+    background-color: rgb(157, 160, 245);
+}
+
+.orangetext{
+    color: orange;
+}
+
+.bluetext{
+    color: blue;
+}
