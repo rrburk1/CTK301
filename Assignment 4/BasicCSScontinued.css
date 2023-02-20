@@ -1,0 +1,91 @@
+body{
+    background-image: url(FnLAM4vXwAMl7m4.jpeg);
+}
+
+h1{
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+
+    
+}
+
+h2{
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+   
+}
+
+h3{
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    
+}
+
+.bluetext{
+    color: blue;
+}
+
+#greenhead{
+    color: darkgreen;
+    background-color: gray;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+div{
+    color: yellow;
+    background-color: darkgreen;
+}
+
+span{
+    color: darkred;
+}
+
+.customtext{
+    font-family: sans-serif;
+    color: white;
+    background-color: gray;
+
+    
+}
+
+.customtextcenter{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: gray;
+
+}
+
+.customtextjustify{
+    font-family: sans-serif;
+    text-align: justify;
+    color: white;
+    background-color: gray;
+
+}
+
+.boxmodel{
+    border: 10px solid #000000;
+    background-color: yellow;
+    padding: 20px 20px 20px 20px;
+}
+
