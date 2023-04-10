@@ -1,0 +1,107 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header{
+  grid-column: span 12;
+  padding: 5px;
+}
+
+header img{
+  width: 150px;
+}
+
+header h1{
+  grid-column: span 10;
+  color: white;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  grid-column: span 12;
+  background-color:rgb(255, 255, 255) ;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 237px;
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  padding: 1em;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  font-weight: bold;
+  font-display: center;
+}
+
+nav li a:hover {
+  background-color:rgb(109, 8, 8);
+  color: white;
+}
+
+main{
+  grid-column: span 12;
+}
+
+.firstp{
+  border-top: 3px solid rgb(0, 0, 0);
+}
+
+.firstp img{
+  width: 150px;
+  float: right;
+
+}
+
+.secondp{
+  border-top: 3px solid rgb(0, 0, 0);
+}
+
+.secondp img{
+  width: 150px;
+  float:left;
+}
+
+.thirdp{
+  border-top: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.thirdp img{
+  width: 150px;
+  float:right;
+}
+
+footer {
+  background-color: red;
+  grid-column: span 12;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
