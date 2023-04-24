@@ -111,6 +111,25 @@ main{
   border-bottom: 3px solid rgb(0, 0, 0);
 }
 
+video {
+grid-column: span 6;
+}
+
+#myCarousel{
+  grid-column: span 6;
+  margin-bottom: 24px;
+  width: 400px;
+}
+
+#myCarousel img{
+  width: 100%;
+}
+
+#myCarousel .f-carousel__slide {
+  padding: 24px;
+  background: rgb(60, 60, 60);
+}
+
 footer {
   background-color: red;
   grid-column: span 12;
