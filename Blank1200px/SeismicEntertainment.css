@@ -16,6 +16,7 @@ body {
 header{
   grid-column: span 12;
   padding: 5px;
+  display: flex;
   
 }
 
@@ -24,12 +25,17 @@ header img{
 }
 
 header h1{
+  flex-grow: 1;
   color: white;
   background-color: red;
+  font-size: 45px;
   font-family: 'Oswald', sans-serif;
+  padding-left: 24px;
   text-shadow: 2px 2px 2px #000;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 
 }
 
@@ -40,6 +46,7 @@ nav {
 }
 
 nav ul {
+  text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,7 +67,7 @@ nav li a {
   text-decoration: none;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 0px;
+  margin-right: 10px;
   font-weight: bold;
   font-display: center;
   text-shadow: 2px 2px 2px #000;
@@ -75,7 +82,23 @@ nav li a:hover {
 }
 Section{
   clear: both;
+  grid-column: span 11;
+  margin-top: 24px;
 }
+
+Section img{
+  width: 300px;
+  float: right;
+}
+
+aside{
+  grid-column: span 1;
+  margin-top: 15px;
+  background-color: #000;
+  
+}
+
+
 
 main{
   grid-column: span 12;
@@ -119,6 +142,7 @@ grid-column: span 6;
   grid-column: span 6;
   margin-bottom: 24px;
   width: 400px;
+  padding: 24px;
 }
 
 #myCarousel img{
@@ -126,8 +150,7 @@ grid-column: span 6;
 }
 
 #myCarousel .f-carousel__slide {
-  padding: 24px;
-  background: rgb(60, 60, 60);
+  padding: 15px;
 }
 
 footer {
